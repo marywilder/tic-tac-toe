@@ -29,7 +29,7 @@
     letter-spacing: .3rem;
     justify-content: center;
     text-shadow: 4px 1px .5px #897ed1;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   h1:hover {
@@ -39,7 +39,9 @@
   ol, ul {
     padding-left: 30px;
   }
-
+  .container {
+    padding-left: 3rem;
+  }
   .board {
     display: flex;
     justify-content: center;
@@ -47,8 +49,9 @@
     aspect-ratio: 1;
     background-color: #d1b6a1;
     border-radius: 2rem;
-    border:1rem solid #d1b6a1;
+    border:.5rem solid #d1b6a1;
     box-shadow: 4px 4px 10px #aa9dfe;
+    width: 14.5rem;
   }
   
   .board-row:after {
@@ -70,15 +73,15 @@
   }
   
   .square {
-    border: .5rem solid #d1b6a1;
-    
+    border: .4rem solid #d1b6a1;
+    justify-content: center;
     font-size: 2rem;
     font-family: 'Lilita One', cursive;
     line-height: 3rem;
     aspect-ratio: 1;
     padding: 0;
     text-align: center;
-    width: 6.4rem;
+    width: 4.4rem;
     color: #ffb985;
     cursor: pointer;
 
@@ -119,11 +122,15 @@
   
   .game-info {
     margin-left: 20px;
+    
   }
 
   footer {
-    padding: 4rem;
+    padding-top: 4rem;
+    text-align: center;
     letter-spacing: .1rem;
+    line-height: 1.9rem;
+
   }
 
   a {
@@ -133,4 +140,12 @@
   }
   a:hover {
     color:#897ed1;
+  }
+
+  i {
+    color: #897ed1;
+  }
+
+  i:hover {
+    color: #d8bca7;
   }

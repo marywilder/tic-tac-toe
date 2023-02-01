@@ -79,7 +79,9 @@ function Square(props) {
           <div className="row-3">{this.renderSquare(8)}</div>
           </div>
           </div>
-          <footer>Made By: <a href="https://github.com/marywilder">Mary Wilder</a></footer>
+          <footer>Made By: <a href="https://github.com/marywilder">Mary Wilder</a>
+          <br>
+          </br>using <a><i>React</i></a></footer>
         </div>
       );
     }
