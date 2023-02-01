@@ -61,6 +61,7 @@ function Square(props) {
         <div className="container">
           <h1>TIC TAC TOE!</h1>
           <div className="status">{status}</div>
+          
           <div className="board">
           <div className="board-row">
             <div className="row-1">{this.renderSquare(0)}</div>
